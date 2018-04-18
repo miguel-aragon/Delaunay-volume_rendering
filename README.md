@@ -8,29 +8,18 @@ The technique us an approximation to actual volume rendering. It approximates th
 
 The code is quite long and full of patches/bugs/cheap tricks. This is a research code that I use to do some data exploration visualizing simlated galaxies to find interesting features/events to study further.
 
-##
-
-Particles:
-![picture](images/delauvolu_all_detail2.png)
-
-Lines defining the Delaunay tessellation
-![picture](images/delauvolu_lp_detail2.png)
-
-Triangles rendering
-![picture](images/delauvolu_p_detail1.png)
 
 Resolution independent, here showing particles
 ![picture](images/halo-0.png)
 
-and the resulting density field.
+and the resulting density field
 ![picture](images/halo-1.png)
 
 ![picture](images/isoden.png)
 ![picture](images/density-isoden.png)
 
-cut a plane across the tessellation:
+cut a plane across the tessellation
 ![picture](images/isoplane.png)
-
 
 and visualize the plane in 2D. Here showing the core of a dark matter halo.
 ![picture](images/2d-zoom.png)
