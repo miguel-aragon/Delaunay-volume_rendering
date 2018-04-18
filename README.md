@@ -15,13 +15,21 @@ Resolution independent, here showing particles
 and the resulting density field
 ![picture](images/halo-1.png)
 
+
+We can compute isodensity contours directly on the Delaunay tessellation.
 ![picture](images/isoden.png)
+
+Here another view of isodensity contours on top of the density field.
+
 ![picture](images/density-isoden.png)
 
-cut a plane across the tessellation
+
+We can also cut a plane across the tessellation
+
 ![picture](images/isoplane.png)
 
 and visualize the plane in 2D. Here showing the core of a dark matter halo.
+
 ![picture](images/2d-zoom.png)
 
 
