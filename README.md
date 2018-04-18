@@ -8,27 +8,30 @@ The technique us an approximation to actual volume rendering. It approximates th
 
 The code is quite long and full of patches/bugs/cheap tricks. This is a research code that I use to do some data exploration visualizing simlated galaxies to find interesting features/events to study further.
 
+## Data files
 
-Resolution independent, here showing particles
+At the moment the code need the point distribution (file.CGAL), the density field values at each point (file.den) and the tessellation consisting of the connections between points (file.TETRA). The file structure is straightforward, see the code for details.
+
+## Renderings
+
+The following are some screen grabs from interactive visualizations:
+
+Visualizing a sparsely sampled dark matter halo. Notice how few particles there are and how the Delaunay tesselation fills the gaps between particles:
 ![picture](images/halo-0.png)
 
-and the resulting density field
+This is the resulting density field
 ![picture](images/halo-1.png)
 
-We can compute isodensity contours directly on the Delaunay tessellation.
+We can compute isodensity contours directly on the Delaunay tessellation:
 ![picture](images/isoden.png)
 
 Here another view of isodensity contours on top of the density field.
-
 ![picture](images/density-isoden.png)
 
-
-We can also cut a plane across the tessellation
-
+We can also cut a plane across the tessellation:
 ![picture](images/isoplane.png)
 
-and visualize the plane in 2D. Here showing the core of a dark matter halo.
-
+and visualize the plane in 2D. Here showing the core of a dark matter halo:
 ![picture](images/2d-zoom.png)
 
 
