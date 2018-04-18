@@ -2,11 +2,11 @@
 
 ## Description
 
-This is a volume rendering code that produces gorgeous visualizations at interactive rates. Since it is based on a tessellation (in comparison to grid-based methods) there is no resolution limit and one can zoom in all the way to the smallest separation between particles. 
+This is a volume rendering code that produces gorgeous visualizations at interactive rates. Since it is based on a tessellation there is no resolution limit (as in grid-based methods) and one can zoom-in all the way to the smallest separation between particles. 
 
-The technique us an approximation to actual volume rendering. It approximates the integrated of the scalar field signal along the line of sight (as in real volume rendering) for a simple triangle rendering of the Delaunay tessellation. So the continuous field is approximated by a series of delta functions (intersection with triangles) scaled with the density field at that location. For visualiation purposes the approximation is indistinguishable from a full volume rendering at a much lower computational cost.
+The technique is an approximation to actual volume rendering. It approximates the integration of the scalar field along the line of sight (as in real volume rendering) for a simple triangle rendering of the Delaunay tessellation. So the continuous field is approximated by a series of delta functions (intersection with triangles) scaled with the density field at that location. For visualiation purposes this approximation is indistinguishable from a full volume rendering at a much lower computational cost.
 
-The code is quite long and full of patches/bugs/cheap tricks. This is a research code that I use to do some data exploration visualizing simlated galaxies to find interesting features/events to study further.
+The code is quite long and full of patches, bugs and cheap tricks. This is a research code that I use to do some data exploration visualizing simulated galaxies to find interesting features/events to study further.
 
 ## Data files
 
