@@ -15,7 +15,6 @@ Resolution independent, here showing particles
 and the resulting density field
 ![picture](images/halo-1.png)
 
-
 We can compute isodensity contours directly on the Delaunay tessellation.
 ![picture](images/isoden.png)
 
@@ -31,5 +30,14 @@ We can also cut a plane across the tessellation
 and visualize the plane in 2D. Here showing the core of a dark matter halo.
 
 ![picture](images/2d-zoom.png)
+
+
+## Notes
+
+The code compiles with OpenFrameworks v0.62. I suspect it must be ported to the new OF API. 
+
+
+
+
 
 
